@@ -9,10 +9,10 @@ int b = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите третье число : ");
 int c = Convert.ToInt32(Console.ReadLine());
 int max = a;
-if (a > max)
+/*if (a > max)
 {
     max = a;
-}
+}*/
 if (b > max)
 {
     max = b;
