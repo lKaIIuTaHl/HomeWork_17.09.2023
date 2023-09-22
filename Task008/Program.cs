@@ -8,13 +8,12 @@ int count = 1;
 //count++;
 while (count <= number)
 {
-    count++;
-
      if (count % 2 == 0)
          {
              Console.Write($"{count} ");
              count++;
          }
+         count++;
 }
 /*else
 {
